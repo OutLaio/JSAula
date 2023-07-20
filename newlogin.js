@@ -18,8 +18,8 @@ class Login{
         if(config != null){
             this.config = config;
         }
-        this.callback_ok = ()=>{callback_ok}
-        this.callback_naook = ()=>{callback_naook}
+        this.callback_ok = callback_ok
+        this.callback_naook = callback_naook
         this.estilocss = 
         ".fundoLogin{display: flex;justify-content: center;align-items: center;width: 100%;height: 100vh;position: absolute;top: 0px;left: 0px;background-color: rgba(0,0,0,0.75);box-sizing: border-box;}"+
         ".baseLogin{display: flex;justify-content: center;align-items: stretch;width: 50%;box-sizing: inherit;}"+
